@@ -1,0 +1,61 @@
+body{
+    background: #202020;
+    margin: 0%;
+    font-family:"Lato", "Monstserrat",sans-serif;
+}
+
+.square{
+    float: left;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.60%;
+    border-radius: 10%;
+    transition: background 0.5s;
+}
+
+.container{
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    margin: 0;
+    font-family: "Lato", "Monstserrat",sans-serif;
+    text-transform: uppercase;
+}
+  
+#stripe{
+    background-color: #E2E2E2;
+    height: 30px;
+    text-align: center;
+}
+
+#colorDisplay{
+    display: block;
+    font-size: 200%
+}
+
+button{
+    background-color:  #E2E2E2;
+    border: none;
+    text-transform: uppercase;
+    height:100%;
+    font-weight: 700;
+    color: black;
+    font-size: inherit;
+    transition: all 0.3s;
+}
+
+#message{
+    display: inline-block;
+    width:20%
+}
+  
+button:hover{
+    color: white;
+    background: #202020;
+}
+  
+      

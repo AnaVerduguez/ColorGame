@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Game</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="1f3ae.ico" type="image/x-icon"> 
+        <script src="https://kit.fontawesome.com/49486e0e74.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <h1 class="title">The Great <span id="colorDisplay"> </span> Guessing Game <i class="fa-solid fa-gamepad fa-flip" style="--fa-animation-duration: 3s;" ></i> </h1>
+
+        <div id="stripe">
+            <button id="reset">New Colors</button>
+            <span id="message"></span>
+            <button class="buttons">Easy</button>
+            <button class="selected buttons">Hard</button>
+        </div>
+
+        <div class="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
